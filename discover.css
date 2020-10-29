@@ -1,0 +1,43 @@
+body {
+  color: white;
+}
+
+.discover-main-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.discover-main-section .covers-image {
+  width: 30vw;
+  margin-left: 2rem;
+  max-width: 350px;
+  height: auto;
+}
+.icon-section {
+  display: flex;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0.75rem;
+  width: 100px;
+  height: 100px;
+  background-color: #19191c;
+  margin-bottom: 2rem;
+}
+
+.icon img {
+  width: 40px;
+}
+.covers-image {
+  margin-bottom: 140px;
+}
+.subtitale {
+  font-size: 1em;
+  margin-left: 30px;
+  margin-top: 5px;
+}
